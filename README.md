@@ -37,7 +37,7 @@ These instructions will get you a copy of the project up and running on your loc
 ### Installation
 Installation
 Clone the repository:
-git clone https://github.com/your-username/health-challenge-tracker.git
+git clone https://github.com/sahil078/Health-Tracker.git
 cd health-challenge-tracker
 
 Install the dependencies:
@@ -49,24 +49,23 @@ ng serve --open
 
 This will compile the project and open it in your default web browser at http://localhost:4200.
 
-Building for Production
+## Building for Production
 To build the application for production, use:
 ng build --configuration production
 
-The compiled files will be located in the dist/health-challenge-tracker directory.
 
-
-Usage
+## Usage
 Log a Workout: Users can log their workout details, including the type of workout and duration.
 Search and Filter: Use the search bar to find workouts by user name or apply filters to narrow down by workout type.
 Visualize Progress: View charts to see the progress of workouts over time.
 Unit Testing
 
 
-Unit tests are provided for one component and one service. To run the tests, use:
+## Unit tests are provided for one component and one service. 
+To run the tests, use:
 ng test
 
-Acknowledgments
+## Acknowledgments
 Angular
 Tailwind CSS
 Chart.js
